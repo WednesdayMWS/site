@@ -92,9 +92,9 @@ TODO: Write a script that modifies the uexp for you
 :::
 
 If you package it like this, it will play for a moment in the game, but will quickly
-turn to loud static. To fix this issue, open the uexp you extracted in a hex editor.
-And find the size in bytes you noted earlier and find it in the file. It should
-occur twice in the file. Now, get the size in bytes of your replacement ubulk,
+turn to loud static. To fix this issue, open the .uexp file you extracted in a hex editor.
+And find the size in bytes you noted earlier, convert it to hex, and find it in the uexp file within the hex editor. It should
+occur twice. Now, get the size in bytes of your replacement ubulk and convert that into hex,
 and change both occurrences to the size of your new file.
 
 Once done, save and repackage your mod, and you'll find your audio replacement plays properly.
